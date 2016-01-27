@@ -44,4 +44,5 @@ v1.0版本中可以设置动态和静态两种爱心，默认情况下不设置i
 ![](https://github.com/xuejiawei/beyole_love_view/blob/master/screencapture/loveview.gif)  
 
 ### 联系方式
-有问题或者建议直接发邮件至:xuejiawei123@yeah.net,我会尽快回复的^_^。
+有问题或者建议直接发邮件至:xuejiawei123@yeah.net,我会尽快回复的^_^。<br>
+如果您对安卓感兴趣，欢迎加入安卓QQ群:279031247，请勿重复加群，广告勿入。一同进步哦。
