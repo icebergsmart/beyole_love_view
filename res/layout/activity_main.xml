@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:beyole="http://schemas.android.com/apk/res/com.beyole.loveimageview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.beyole.view.LoveView
+        android:id="@+id/id_mylove"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        beyole:isAnimateOn="true"
+        beyole:loveColor="#660000ff" />
+
+</RelativeLayout>
