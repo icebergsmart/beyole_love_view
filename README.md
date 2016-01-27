@@ -22,3 +22,20 @@ y=13*cost-5cos(2*t)-2*cos(3*t)-cos(4*t)<br>
 
 </RelativeLayout>
 ```
+Activity中直接使用如下:<br>
+```Java
+mLoveView = (LoveView) findViewById(R.id.id_mylove);
+		mLoveView.setMaxRate(7); //设置最大缩放比例
+		mLoveView.setMinRate(4); //设置最小缩放比例
+		mLoveView.setStepRate(0.08f);  //设置步进缩放比例
+		mLoveView.setOnClickListener(new OnClickListener() { //设置单击监听器
+
+			@Override
+			public void onClick(View view) {
+				Toast.makeText(MainActivity.this, "I love you!", Toast.LENGTH_LONG).show();
+				LoveView loveView = (LoveView) view;
+				loveView.setColor(0x77ff0000);//设置爱心颜色
+			}
+		});
+```
+
