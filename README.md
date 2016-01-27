@@ -41,4 +41,4 @@ mLoveView = (LoveView) findViewById(R.id.id_mylove);
 ## 注意点(attention):
 v1.0版本中可以设置动态和静态两种爱心，默认情况下不设置isAnimateOn属性为静态爱心，如需变成动态，目前只能在xml中设置，不能用代码动态设置，动态设置功能将在后续版本中加入。另外，爱心颜色默认情况下为红色，xml中使用loveColor属性，也可在代码中动态设置。
 ## 截图(screencapture):
-![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)  
+![](https://github.com/xuejiawei/beyole_love_view/blob/master/screencapture/loveview.gif)  
